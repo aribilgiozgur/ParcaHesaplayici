@@ -80,7 +80,7 @@
             // lblMobo
             // 
             this.lblMobo.AutoSize = true;
-            this.lblMobo.Location = new System.Drawing.Point(50, 32);
+            this.lblMobo.Location = new System.Drawing.Point(50, 37);
             this.lblMobo.Name = "lblMobo";
             this.lblMobo.Size = new System.Drawing.Size(47, 13);
             this.lblMobo.TabIndex = 0;
@@ -89,7 +89,7 @@
             // lblCpu
             // 
             this.lblCpu.AutoSize = true;
-            this.lblCpu.Location = new System.Drawing.Point(50, 57);
+            this.lblCpu.Location = new System.Drawing.Point(50, 63);
             this.lblCpu.Name = "lblCpu";
             this.lblCpu.Size = new System.Drawing.Size(42, 13);
             this.lblCpu.TabIndex = 0;
@@ -98,7 +98,7 @@
             // lblMemo
             // 
             this.lblMemo.AutoSize = true;
-            this.lblMemo.Location = new System.Drawing.Point(50, 83);
+            this.lblMemo.Location = new System.Drawing.Point(50, 88);
             this.lblMemo.Name = "lblMemo";
             this.lblMemo.Size = new System.Drawing.Size(39, 13);
             this.lblMemo.TabIndex = 0;
@@ -107,7 +107,7 @@
             // lblGpu
             // 
             this.lblGpu.AutoSize = true;
-            this.lblGpu.Location = new System.Drawing.Point(50, 108);
+            this.lblGpu.Location = new System.Drawing.Point(50, 112);
             this.lblGpu.Name = "lblGpu";
             this.lblGpu.Size = new System.Drawing.Size(62, 13);
             this.lblGpu.TabIndex = 0;
@@ -116,7 +116,7 @@
             // lblHdd
             // 
             this.lblHdd.AutoSize = true;
-            this.lblHdd.Location = new System.Drawing.Point(50, 135);
+            this.lblHdd.Location = new System.Drawing.Point(50, 136);
             this.lblHdd.Name = "lblHdd";
             this.lblHdd.Size = new System.Drawing.Size(71, 13);
             this.lblHdd.TabIndex = 0;
@@ -125,7 +125,7 @@
             // lblCdrom
             // 
             this.lblCdrom.AutoSize = true;
-            this.lblCdrom.Location = new System.Drawing.Point(50, 159);
+            this.lblCdrom.Location = new System.Drawing.Point(50, 160);
             this.lblCdrom.Name = "lblCdrom";
             this.lblCdrom.Size = new System.Drawing.Size(72, 13);
             this.lblCdrom.TabIndex = 0;
@@ -134,7 +134,7 @@
             // lblPowSup
             // 
             this.lblPowSup.AutoSize = true;
-            this.lblPowSup.Location = new System.Drawing.Point(50, 181);
+            this.lblPowSup.Location = new System.Drawing.Point(50, 183);
             this.lblPowSup.Name = "lblPowSup";
             this.lblPowSup.Size = new System.Drawing.Size(71, 13);
             this.lblPowSup.TabIndex = 0;
@@ -152,7 +152,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(50, 230);
+            this.label9.Location = new System.Drawing.Point(50, 231);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(45, 13);
             this.label9.TabIndex = 0;
@@ -160,27 +160,31 @@
             // 
             // txtMoboName
             // 
-            this.txtMoboName.Location = new System.Drawing.Point(139, 32);
+            this.txtMoboName.Enabled = false;
+            this.txtMoboName.Location = new System.Drawing.Point(139, 33);
             this.txtMoboName.Name = "txtMoboName";
             this.txtMoboName.Size = new System.Drawing.Size(288, 20);
             this.txtMoboName.TabIndex = 1;
             // 
             // txtCpuName
             // 
-            this.txtCpuName.Location = new System.Drawing.Point(139, 57);
+            this.txtCpuName.Enabled = false;
+            this.txtCpuName.Location = new System.Drawing.Point(139, 59);
             this.txtCpuName.Name = "txtCpuName";
             this.txtCpuName.Size = new System.Drawing.Size(288, 20);
             this.txtCpuName.TabIndex = 3;
             // 
             // txtMemoryName
             // 
-            this.txtMemoryName.Location = new System.Drawing.Point(139, 83);
+            this.txtMemoryName.Enabled = false;
+            this.txtMemoryName.Location = new System.Drawing.Point(139, 84);
             this.txtMemoryName.Name = "txtMemoryName";
             this.txtMemoryName.Size = new System.Drawing.Size(288, 20);
             this.txtMemoryName.TabIndex = 5;
             // 
             // txtGpuName
             // 
+            this.txtGpuName.Enabled = false;
             this.txtGpuName.Location = new System.Drawing.Point(139, 108);
             this.txtGpuName.Name = "txtGpuName";
             this.txtGpuName.Size = new System.Drawing.Size(288, 20);
@@ -188,35 +192,40 @@
             // 
             // txtHddName
             // 
-            this.txtHddName.Location = new System.Drawing.Point(139, 135);
+            this.txtHddName.Enabled = false;
+            this.txtHddName.Location = new System.Drawing.Point(139, 133);
             this.txtHddName.Name = "txtHddName";
             this.txtHddName.Size = new System.Drawing.Size(288, 20);
             this.txtHddName.TabIndex = 9;
             // 
             // txtCdromName
             // 
-            this.txtCdromName.Location = new System.Drawing.Point(139, 159);
+            this.txtCdromName.Enabled = false;
+            this.txtCdromName.Location = new System.Drawing.Point(139, 156);
             this.txtCdromName.Name = "txtCdromName";
             this.txtCdromName.Size = new System.Drawing.Size(288, 20);
             this.txtCdromName.TabIndex = 11;
             // 
             // txtPowSupName
             // 
-            this.txtPowSupName.Location = new System.Drawing.Point(139, 181);
+            this.txtPowSupName.Enabled = false;
+            this.txtPowSupName.Location = new System.Drawing.Point(139, 179);
             this.txtPowSupName.Name = "txtPowSupName";
             this.txtPowSupName.Size = new System.Drawing.Size(288, 20);
             this.txtPowSupName.TabIndex = 13;
             // 
             // txtCaseName
             // 
-            this.txtCaseName.Location = new System.Drawing.Point(139, 207);
+            this.txtCaseName.Enabled = false;
+            this.txtCaseName.Location = new System.Drawing.Point(139, 203);
             this.txtCaseName.Name = "txtCaseName";
             this.txtCaseName.Size = new System.Drawing.Size(288, 20);
             this.txtCaseName.TabIndex = 15;
             // 
             // txtMonitorName
             // 
-            this.txtMonitorName.Location = new System.Drawing.Point(139, 230);
+            this.txtMonitorName.Enabled = false;
+            this.txtMonitorName.Location = new System.Drawing.Point(139, 227);
             this.txtMonitorName.Name = "txtMonitorName";
             this.txtMonitorName.Size = new System.Drawing.Size(288, 20);
             this.txtMonitorName.TabIndex = 17;
@@ -295,27 +304,31 @@
             // 
             // txtMobo
             // 
-            this.txtMobo.Location = new System.Drawing.Point(433, 31);
+            this.txtMobo.Enabled = false;
+            this.txtMobo.Location = new System.Drawing.Point(433, 33);
             this.txtMobo.Name = "txtMobo";
             this.txtMobo.Size = new System.Drawing.Size(100, 20);
             this.txtMobo.TabIndex = 2;
             // 
             // txtCpu
             // 
-            this.txtCpu.Location = new System.Drawing.Point(433, 56);
+            this.txtCpu.Enabled = false;
+            this.txtCpu.Location = new System.Drawing.Point(433, 59);
             this.txtCpu.Name = "txtCpu";
             this.txtCpu.Size = new System.Drawing.Size(100, 20);
             this.txtCpu.TabIndex = 4;
             // 
             // txtMemory
             // 
-            this.txtMemory.Location = new System.Drawing.Point(433, 82);
+            this.txtMemory.Enabled = false;
+            this.txtMemory.Location = new System.Drawing.Point(433, 84);
             this.txtMemory.Name = "txtMemory";
             this.txtMemory.Size = new System.Drawing.Size(100, 20);
             this.txtMemory.TabIndex = 6;
             // 
             // txtGpu
             // 
+            this.txtGpu.Enabled = false;
             this.txtGpu.Location = new System.Drawing.Point(433, 108);
             this.txtGpu.Name = "txtGpu";
             this.txtGpu.Size = new System.Drawing.Size(100, 20);
@@ -323,35 +336,40 @@
             // 
             // txtHdd
             // 
-            this.txtHdd.Location = new System.Drawing.Point(433, 134);
+            this.txtHdd.Enabled = false;
+            this.txtHdd.Location = new System.Drawing.Point(433, 133);
             this.txtHdd.Name = "txtHdd";
             this.txtHdd.Size = new System.Drawing.Size(100, 20);
             this.txtHdd.TabIndex = 10;
             // 
             // txtCdrom
             // 
-            this.txtCdrom.Location = new System.Drawing.Point(433, 158);
+            this.txtCdrom.Enabled = false;
+            this.txtCdrom.Location = new System.Drawing.Point(433, 156);
             this.txtCdrom.Name = "txtCdrom";
             this.txtCdrom.Size = new System.Drawing.Size(100, 20);
             this.txtCdrom.TabIndex = 12;
             // 
             // txtPowSup
             // 
-            this.txtPowSup.Location = new System.Drawing.Point(433, 180);
+            this.txtPowSup.Enabled = false;
+            this.txtPowSup.Location = new System.Drawing.Point(433, 179);
             this.txtPowSup.Name = "txtPowSup";
             this.txtPowSup.Size = new System.Drawing.Size(100, 20);
             this.txtPowSup.TabIndex = 14;
             // 
             // txtCase
             // 
-            this.txtCase.Location = new System.Drawing.Point(433, 206);
+            this.txtCase.Enabled = false;
+            this.txtCase.Location = new System.Drawing.Point(433, 203);
             this.txtCase.Name = "txtCase";
             this.txtCase.Size = new System.Drawing.Size(100, 20);
             this.txtCase.TabIndex = 16;
             // 
             // txtMonitor
             // 
-            this.txtMonitor.Location = new System.Drawing.Point(433, 229);
+            this.txtMonitor.Enabled = false;
+            this.txtMonitor.Location = new System.Drawing.Point(433, 227);
             this.txtMonitor.Name = "txtMonitor";
             this.txtMonitor.Size = new System.Drawing.Size(100, 20);
             this.txtMonitor.TabIndex = 18;
@@ -387,29 +405,32 @@
             // chkMobo
             // 
             this.chkMobo.AutoSize = true;
-            this.chkMobo.Location = new System.Drawing.Point(539, 33);
+            this.chkMobo.Location = new System.Drawing.Point(539, 36);
             this.chkMobo.Name = "chkMobo";
             this.chkMobo.Size = new System.Drawing.Size(15, 14);
             this.chkMobo.TabIndex = 71;
             this.chkMobo.UseVisualStyleBackColor = true;
+            this.chkMobo.CheckedChanged += new System.EventHandler(this.chkMobo_CheckedChanged);
             // 
             // chkCpu
             // 
             this.chkCpu.AutoSize = true;
-            this.chkCpu.Location = new System.Drawing.Point(539, 59);
+            this.chkCpu.Location = new System.Drawing.Point(539, 62);
             this.chkCpu.Name = "chkCpu";
             this.chkCpu.Size = new System.Drawing.Size(15, 14);
             this.chkCpu.TabIndex = 71;
             this.chkCpu.UseVisualStyleBackColor = true;
+            this.chkCpu.CheckedChanged += new System.EventHandler(this.chkCpu_CheckedChanged);
             // 
             // chkMemory
             // 
             this.chkMemory.AutoSize = true;
-            this.chkMemory.Location = new System.Drawing.Point(539, 86);
+            this.chkMemory.Location = new System.Drawing.Point(539, 87);
             this.chkMemory.Name = "chkMemory";
             this.chkMemory.Size = new System.Drawing.Size(15, 14);
             this.chkMemory.TabIndex = 71;
             this.chkMemory.UseVisualStyleBackColor = true;
+            this.chkMemory.CheckedChanged += new System.EventHandler(this.chkMemory_CheckedChanged);
             // 
             // chkGpu
             // 
@@ -419,15 +440,17 @@
             this.chkGpu.Size = new System.Drawing.Size(15, 14);
             this.chkGpu.TabIndex = 71;
             this.chkGpu.UseVisualStyleBackColor = true;
+            this.chkGpu.CheckedChanged += new System.EventHandler(this.chkGpu_CheckedChanged);
             // 
             // chkHdd
             // 
             this.chkHdd.AutoSize = true;
-            this.chkHdd.Location = new System.Drawing.Point(539, 138);
+            this.chkHdd.Location = new System.Drawing.Point(539, 136);
             this.chkHdd.Name = "chkHdd";
             this.chkHdd.Size = new System.Drawing.Size(15, 14);
             this.chkHdd.TabIndex = 71;
             this.chkHdd.UseVisualStyleBackColor = true;
+            this.chkHdd.CheckedChanged += new System.EventHandler(this.chkHdd_CheckedChanged);
             // 
             // chkCdrom
             // 
@@ -437,15 +460,17 @@
             this.chkCdrom.Size = new System.Drawing.Size(15, 14);
             this.chkCdrom.TabIndex = 71;
             this.chkCdrom.UseVisualStyleBackColor = true;
+            this.chkCdrom.CheckedChanged += new System.EventHandler(this.chkCdrom_CheckedChanged);
             // 
             // chkPowSup
             // 
             this.chkPowSup.AutoSize = true;
-            this.chkPowSup.Location = new System.Drawing.Point(539, 181);
+            this.chkPowSup.Location = new System.Drawing.Point(539, 182);
             this.chkPowSup.Name = "chkPowSup";
             this.chkPowSup.Size = new System.Drawing.Size(15, 14);
             this.chkPowSup.TabIndex = 71;
             this.chkPowSup.UseVisualStyleBackColor = true;
+            this.chkPowSup.CheckedChanged += new System.EventHandler(this.chkPowSup_CheckedChanged);
             // 
             // chkCase
             // 
@@ -455,6 +480,7 @@
             this.chkCase.Size = new System.Drawing.Size(15, 14);
             this.chkCase.TabIndex = 71;
             this.chkCase.UseVisualStyleBackColor = true;
+            this.chkCase.CheckedChanged += new System.EventHandler(this.chkCase_CheckedChanged);
             // 
             // chkMonitor
             // 
@@ -464,6 +490,7 @@
             this.chkMonitor.Size = new System.Drawing.Size(15, 14);
             this.chkMonitor.TabIndex = 71;
             this.chkMonitor.UseVisualStyleBackColor = true;
+            this.chkMonitor.CheckedChanged += new System.EventHandler(this.chkMonitor_CheckedChanged);
             // 
             // CompPriceCalc
             // 
