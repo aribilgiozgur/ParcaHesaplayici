@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Linq;
+//using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.IO;
@@ -222,6 +222,12 @@ namespace ParcaHesaplayici
         private void chkMonitor_CheckedChanged(object sender, EventArgs e)
         {
             setChange(txtMonitor, txtMonitorName);
+        }
+
+        private void hakkındaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AboutForm dlg = new AboutForm(); // assume Form2 is the second form.
+            dlg.ShowDialog();
         }
     }
 }
